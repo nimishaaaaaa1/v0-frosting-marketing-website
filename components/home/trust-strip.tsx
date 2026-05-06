@@ -1,5 +1,14 @@
 import { FadeIn } from "@/components/fade-in"
 
+const companies = [
+  "Razorpay",
+  "Zerodha",
+  "Swiggy",
+  "Flipkart",
+  "PhonePe",
+  "CRED",
+]
+
 export function TrustStrip() {
   return (
     <section className="py-12 lg:py-16 border-y border-border">
@@ -11,12 +20,12 @@ export function TrustStrip() {
         </FadeIn>
         <FadeIn delay={0.1}>
           <div className="grid grid-cols-3 gap-6 md:grid-cols-6">
-            {[1, 2, 3, 4, 5, 6].map((i) => (
+            {companies.map((company) => (
               <div
-                key={i}
-                className="h-12 bg-muted/50 rounded-lg flex items-center justify-center"
+                key={company}
+                className="h-12 bg-muted/50 rounded-lg flex items-center justify-center px-4"
               >
-                <span className="text-xs text-muted-foreground">Logo</span>
+                <span className="text-sm font-medium text-foreground/70">{company}</span>
               </div>
             ))}
           </div>

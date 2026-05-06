@@ -12,10 +12,10 @@ const companyLinks = [
 ]
 
 const legalLinks = [
-  { href: "#", label: "Privacy" },
-  { href: "#", label: "Terms" },
-  { href: "#", label: "Refund Policy" },
-  { href: "#", label: "GST Policy" },
+  { href: "/privacy", label: "Privacy" },
+  { href: "/terms", label: "Terms" },
+  { href: "/refund-policy", label: "Refund Policy" },
+  { href: "/gst-policy", label: "GST Policy" },
 ]
 
 const cities = [
