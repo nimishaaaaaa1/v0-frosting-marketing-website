@@ -12,7 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { Video, LayoutDashboard, FileText, Mail, MessageCircle } from "lucide-react"
+import { Video, LayoutDashboard, FileText, Clock } from "lucide-react"
 
 const teamSizes = ["1-30", "31-80", "81-300", "301-1000", "1000+"]
 const cities = ["Bangalore", "Delhi NCR", "Mumbai", "Hyderabad", "Pune", "Chennai", "Kolkata", "Other"]
@@ -39,7 +39,7 @@ export function ContactForm() {
     setIsSubmitting(true)
     
     try {
-      const response = await fetch("https://formspree.io/f/PLACEHOLDER", {
+      const response = await fetch("/api/book-demo", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -188,7 +188,7 @@ export function ContactForm() {
                   disabled={isSubmitting}
                   className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
                 >
-                  {isSubmitting ? "Submitting..." : "Book my demo"}
+                  {isSubmitting ? "Submitting..." : "Book my 20-min call"}
                 </Button>
               </div>
             </form>
@@ -200,8 +200,12 @@ export function ContactForm() {
               <h2 className="font-serif text-2xl text-foreground">What to expect</h2>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-4">
+                  <Clock className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span className="text-muted-foreground">We&apos;ll respond within 4 hours with a calendar link</span>
+                </li>
+                <li className="flex items-start gap-4">
                   <Video className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span className="text-muted-foreground">A 20-minute Zoom call</span>
+                  <span className="text-muted-foreground">A quick 20-minute Zoom call at your convenience</span>
                 </li>
                 <li className="flex items-start gap-4">
                   <LayoutDashboard className="h-5 w-5 text-primary shrink-0 mt-0.5" />
@@ -212,17 +216,6 @@ export function ContactForm() {
                   <span className="text-muted-foreground">Custom plan quote if you&apos;re 80+ employees</span>
                 </li>
               </ul>
-
-              <div className="mt-12 space-y-4">
-                <div className="flex items-center gap-3 text-muted-foreground">
-                  <Mail className="h-5 w-5 text-primary" />
-                  <span>Prefer email? Write to demo@frosting.in</span>
-                </div>
-                <div className="flex items-center gap-3 text-muted-foreground">
-                  <MessageCircle className="h-5 w-5 text-primary" />
-                  <span>Or WhatsApp us at +91-PLACEHOLDER</span>
-                </div>
-              </div>
             </div>
           </FadeIn>
         </div>

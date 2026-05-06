@@ -74,7 +74,7 @@ export default function RefundPolicyPage() {
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">How to Request a Refund</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Contact us via WhatsApp, email (support@frosting.in), or through your dashboard. Refunds are processed within 5-7 business days to the original payment method.
+                  Contact us through your dashboard or via the contact page. Refunds are processed within 5-7 business days to the original payment method.
                 </p>
               </div>
             </FadeIn>
