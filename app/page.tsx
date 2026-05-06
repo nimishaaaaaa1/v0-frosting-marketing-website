@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { HeroSection } from "@/components/home/hero-section"
-import { TrustStrip } from "@/components/home/trust-strip"
 import { ProblemSection } from "@/components/home/problem-section"
 import { HowItWorksPreview } from "@/components/home/how-it-works-preview"
 import { FeaturesSection } from "@/components/home/features-section"
@@ -16,7 +15,6 @@ export default function HomePage() {
       <Navbar />
       <main>
         <HeroSection />
-        <TrustStrip />
         <ProblemSection />
         <HowItWorksPreview />
         <FeaturesSection />
