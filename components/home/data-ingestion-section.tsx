@@ -7,42 +7,37 @@ import { FileSpreadsheet, Link as LinkIcon } from "lucide-react"
 const methods = [
   {
     icon: FileSpreadsheet,
-    title: "Send us an Excel sheet",
-    description: "Name, birthday, work anniversary, dietary preference, office city. We'll share a template. Upload once, we handle the rest.",
+    title: "Excel sheet",
+    description: "Upload once. We handle the rest.",
   },
   {
     icon: LinkIcon,
-    title: "Connect your HRIS",
-    description: "Using Darwinbox, Keka, Zoho People, or Razorpay X Payroll? We have direct integrations on the Enterprise plan. One-click sync, no manual updates.",
+    title: "HRIS integration",
+    description: "Darwinbox, Keka, Zoho People, Razorpay X Payroll.",
   },
 ]
 
 export function DataIngestionSection() {
   return (
-    <section className="py-20 lg:py-[120px] bg-muted/30">
-      <div className="mx-auto max-w-[1200px] px-6 lg:px-8">
+    <section className="py-16 md:py-24 px-4">
+      <div className="mx-auto max-w-[1140px]">
         <FadeIn>
-          <h2 className="font-serif text-3xl text-foreground sm:text-4xl lg:text-5xl">
-            How we get your team data
+          <h2 className="font-serif text-[28px] md:text-[40px] leading-[1.15] text-foreground">
+            Two ways to onboard
           </h2>
         </FadeIn>
-        <FadeIn delay={0.1}>
-          <p className="mt-4 text-lg text-muted-foreground">
-            Two ways. Pick whichever is easier for you.
-          </p>
-        </FadeIn>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2">
+        <div className="mt-12 grid gap-6 md:grid-cols-2 max-w-3xl">
           {methods.map((method, index) => (
-            <FadeIn key={method.title} delay={0.2 + index * 0.1}>
+            <FadeIn key={method.title} delay={0.1 + index * 0.08}>
               <motion.div
                 whileHover={{ y: -4 }}
                 transition={{ duration: 0.2 }}
-                className="bg-card rounded-xl shadow-[0_8px_32px_rgba(43,24,16,0.08)] border border-border p-8 h-full"
+                className="bg-card rounded-xl border border-border p-8 shadow-sm h-full"
               >
-                <method.icon className="h-6 w-6 text-primary" />
-                <h3 className="mt-4 font-medium text-xl text-foreground">{method.title}</h3>
-                <p className="mt-3 text-muted-foreground leading-relaxed">
+                <method.icon className="h-6 w-6 text-primary mb-4" />
+                <h3 className="font-serif text-lg text-foreground">{method.title}</h3>
+                <p className="mt-2 text-[15px] text-muted-foreground leading-[1.5]">
                   {method.description}
                 </p>
               </motion.div>

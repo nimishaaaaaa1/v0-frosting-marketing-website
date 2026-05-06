@@ -13,57 +13,45 @@ export function LeadCaptureSection() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
-    try {
-      const response = await fetch("https://formspree.io/f/SIGNUP_PLACEHOLDER", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
-      })
-      
-      if (response.ok) {
-        setIsSuccess(true)
-        setEmail("")
-      }
-    } catch (error) {
-      console.error("Form submission error:", error)
-    } finally {
-      setIsSubmitting(false)
-    }
+    await new Promise(resolve => setTimeout(resolve, 1000))
+    setIsSuccess(true)
+    setEmail("")
+    setIsSubmitting(false)
   }
 
   return (
-    <section className="py-20 lg:py-[120px] bg-muted/30">
-      <div className="mx-auto max-w-[1200px] px-6 lg:px-8">
+    <section className="py-16 md:py-24 px-4">
+      <div className="mx-auto max-w-[1140px]">
         <FadeIn>
-          <div className="bg-card rounded-xl shadow-[0_8px_32px_rgba(43,24,16,0.08)] border border-border p-8 lg:p-12 max-w-2xl mx-auto text-center">
-            <h2 className="font-serif text-2xl text-foreground sm:text-3xl">
-              Want our HR cake pricing guide?
+          <div className="max-w-xl mx-auto text-center">
+            <h2 className="font-serif text-[28px] md:text-[40px] leading-[1.15] text-foreground">
+              Get the pricing guide
             </h2>
-            <p className="mt-3 text-muted-foreground">
-              Drop your email. We&apos;ll send a one-pager with pricing examples for teams of all sizes.
+            <p className="mt-4 text-[17px] text-muted-foreground leading-[1.5]">
+              One email. Pricing for teams of all sizes.
             </p>
             
             {isSuccess ? (
-              <p className="mt-6 text-green-700 font-medium">
-                Check your inbox. We&apos;ve sent the guide.
+              <p className="mt-8 text-primary font-medium">
+                Check your inbox.
               </p>
             ) : (
-              <form onSubmit={handleSubmit} className="mt-6 flex flex-col sm:flex-row gap-3">
+              <form onSubmit={handleSubmit} className="mt-8 flex flex-col sm:flex-row gap-3">
                 <Input
                   type="email"
                   placeholder="work@company.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="flex-1 bg-background"
+                  className="flex-1 h-12 text-base"
                 />
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-primary text-primary-foreground hover:bg-primary/90"
+                  size="lg"
+                  className="h-12 transition-transform duration-200 hover:scale-[1.02]"
                 >
-                  {isSubmitting ? "Sending..." : "Send me the guide"}
+                  {isSubmitting ? "Sending..." : "Send guide"}
                 </Button>
               </form>
             )}

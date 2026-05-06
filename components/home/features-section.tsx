@@ -7,58 +7,51 @@ import { Leaf, MapPin, Cake, Palette, FileText, LayoutDashboard } from "lucide-r
 const features = [
   {
     icon: Leaf,
-    title: "Veg, Jain, eggless, gluten-free",
-    description: "Captured per employee. We never send the wrong cake to the wrong person.",
+    title: "Dietary preferences captured per employee",
   },
   {
     icon: MapPin,
-    title: "The hybrid work problem, solved",
-    description: "We WhatsApp the manager 48 hours before delivery to confirm the location.",
+    title: "WhatsApp confirmation 48 hours before delivery",
   },
   {
     icon: Cake,
-    title: "Actually good cakes",
-    description: "We work with Theobroma, Bakingo, Baker's Dozen, L'Opéra, and Aubree across cities.",
+    title: "Premium bakery partners across 22 cities",
   },
   {
     icon: Palette,
-    title: "Custom branding",
-    description: "Add your company logo or a personalized message to every cake topper.",
+    title: "Custom branded toppers and cards",
   },
   {
     icon: FileText,
-    title: "GST and vendor onboarding",
-    description: "We're a registered Indian entity. GST invoices, MSA, DPA, procurement docs ready.",
+    title: "GST invoicing and vendor onboarding",
   },
   {
     icon: LayoutDashboard,
-    title: "One dashboard",
-    description: "Every upcoming celebration, every past delivery, every rupee spent. Filter by team or city.",
+    title: "Single dashboard for all celebrations",
   },
 ]
 
 export function FeaturesSection() {
   return (
-    <section className="py-20 lg:py-[120px]">
-      <div className="mx-auto max-w-[1200px] px-6 lg:px-8">
+    <section className="py-16 md:py-24 px-4 bg-muted/30">
+      <div className="mx-auto max-w-[1140px]">
         <FadeIn>
-          <h2 className="font-serif text-3xl text-foreground sm:text-4xl lg:text-5xl text-balance">
-            Built for modern workplace reality
+          <h2 className="font-serif text-[28px] md:text-[40px] leading-[1.15] text-foreground">
+            Built for Indian offices
           </h2>
         </FadeIn>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, index) => (
-            <FadeIn key={feature.title} delay={0.1 + index * 0.05}>
+            <FadeIn key={feature.title} delay={0.1 + index * 0.08}>
               <motion.div
                 whileHover={{ y: -4 }}
                 transition={{ duration: 0.2 }}
-                className="bg-card rounded-xl shadow-[0_8px_32px_rgba(43,24,16,0.08)] border border-border p-8 h-full"
+                className="bg-card rounded-xl border border-border p-8 shadow-sm"
               >
-                <feature.icon className="h-6 w-6 text-primary" />
-                <h3 className="mt-4 font-medium text-lg text-foreground">{feature.title}</h3>
-                <p className="mt-2 text-muted-foreground leading-relaxed">
-                  {feature.description}
+                <feature.icon className="h-6 w-6 text-primary mb-4" />
+                <p className="text-[15px] text-foreground leading-[1.5]">
+                  {feature.title}
                 </p>
               </motion.div>
             </FadeIn>

@@ -16,8 +16,8 @@ const sourceSerif = Source_Serif_4({
 })
 
 export const metadata: Metadata = {
-  title: 'Frosting | Birthday cakes for your team, handled',
-  description: 'Frosting runs employee birthdays, work anniversaries, and farewells for HR teams across India. Upload your team once. We do the rest.',
+  title: 'Frosting | Thoughtful employee celebrations, automated',
+  description: 'We automate thoughtful employee celebrations for companies. Birthday cakes, work anniversaries, and milestones for HR teams across India.',
   generator: 'v0.app',
   icons: {
     icon: [
