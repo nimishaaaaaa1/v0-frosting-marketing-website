@@ -42,8 +42,8 @@ export function FeaturesSection() {
     <section className="py-20 lg:py-[120px]">
       <div className="mx-auto max-w-[1200px] px-6 lg:px-8">
         <FadeIn>
-          <h2 className="font-serif text-3xl text-foreground sm:text-4xl lg:text-5xl">
-            Built for Indian office reality
+          <h2 className="font-serif text-3xl text-foreground sm:text-4xl lg:text-5xl text-balance">
+            Built for modern workplace reality
           </h2>
         </FadeIn>
 
