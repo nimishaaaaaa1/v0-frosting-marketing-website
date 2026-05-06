@@ -3,8 +3,8 @@ import { Footer } from "@/components/footer"
 import { FadeIn } from "@/components/fade-in"
 
 export const metadata = {
-  title: "Privacy Policy | Frosting",
-  description: "How Frosting handles and protects your data.",
+  title: "Privacy Policy | Cremio",
+  description: "How Cremio handles and protects your data.",
 }
 
 export default function PrivacyPage() {
@@ -58,12 +58,12 @@ export default function PrivacyPage() {
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Your Rights</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  You can request access to, correction of, or deletion of your data at any time. Contact us at privacy@frosting.in for any privacy-related requests.
+                  You can request access to, correction of, or deletion of your data at any time. Contact us at privacy@cremio.io for any privacy-related requests.
                 </p>
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Contact Us</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  For questions about this privacy policy, contact us at privacy@frosting.in or write to us at our registered office address.
+                  For questions about this privacy policy, contact us at privacy@cremio.io or write to us at our registered office address.
                 </p>
               </div>
             </FadeIn>

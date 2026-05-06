@@ -6,8 +6,8 @@ import { ContactForm } from "@/components/contact/contact-form"
 import { ContactFaq } from "@/components/contact/contact-faq"
 
 export const metadata: Metadata = {
-  title: "Contact | Frosting",
-  description: "Book a 20-minute demo with Frosting. Tell us about your team and we'll send a calendar invite within 4 hours.",
+  title: "Contact | Cremio",
+  description: "Book a 20-minute demo with Cremio. Tell us about your team and we'll send a calendar invite within 4 hours.",
 }
 
 export default function ContactPage() {

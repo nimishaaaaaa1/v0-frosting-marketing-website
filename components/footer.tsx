@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Linkedin, Instagram, Twitter } from "lucide-react"
+import Image from "next/image"
 
 const productLinks = [
   { href: "/how-it-works", label: "How it works" },
@@ -36,8 +36,8 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="font-serif text-2xl text-[#FAF6EF]">
-              Frosting
+            <Link href="/" className="flex items-center">
+              <Image src="/logo.svg" alt="Cremio" width={110} height={33} className="brightness-[10]" />
             </Link>
             <p className="mt-3 text-sm text-[#FAF6EF]/80 leading-relaxed">
               Birthday cakes for your team, handled.
@@ -119,33 +119,10 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Social Links & Copyright */}
-        <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex gap-4">
-            <a
-              href="#"
-              className="text-[#FAF6EF]/60 hover:text-[#FAF6EF] transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="h-5 w-5" />
-            </a>
-            <a
-              href="#"
-              className="text-[#FAF6EF]/60 hover:text-[#FAF6EF] transition-colors"
-              aria-label="Instagram"
-            >
-              <Instagram className="h-5 w-5" />
-            </a>
-            <a
-              href="#"
-              className="text-[#FAF6EF]/60 hover:text-[#FAF6EF] transition-colors"
-              aria-label="X"
-            >
-              <Twitter className="h-5 w-5" />
-            </a>
-          </div>
+        {/* Copyright */}
+        <div className="mt-8 flex items-center justify-end">
           <p className="text-xs text-[#FAF6EF]/60">
-            © 2026 Frosting.in
+            © 2026 cremio.io
           </p>
         </div>
       </div>

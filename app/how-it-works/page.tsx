@@ -7,8 +7,8 @@ import { FaqSection } from "@/components/how-it-works/faq-section"
 import { CtaStrip } from "@/components/how-it-works/cta-strip"
 
 export const metadata: Metadata = {
-  title: "How It Works | Frosting",
-  description: "From uploading your team list to Priya blowing out candles. See how Frosting automates employee birthdays for HR teams across India.",
+  title: "How It Works | Cremio",
+  description: "From uploading your team list to Priya blowing out candles. See how Cremio automates employee birthdays for HR teams across India.",
 }
 
 export default function HowItWorksPage() {

@@ -3,8 +3,8 @@ import { Footer } from "@/components/footer"
 import { FadeIn } from "@/components/fade-in"
 
 export const metadata = {
-  title: "Terms of Service | Frosting",
-  description: "Terms and conditions for using Frosting services.",
+  title: "Terms of Service | Cremio",
+  description: "Terms and conditions for using Cremio services.",
 }
 
 export default function TermsPage() {
@@ -27,12 +27,12 @@ export default function TermsPage() {
               <div className="prose prose-neutral max-w-none">
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Agreement to Terms</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  By accessing or using Frosting&apos;s services, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our services.
+                  By accessing or using Cremio&apos;s services, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our services.
                 </p>
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Service Description</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Frosting provides automated birthday celebration services for corporate teams, including cake delivery, personalized cards, and celebration coordination. We partner with premium bakeries to ensure consistent quality across cities.
+                  Cremio provides automated birthday celebration services for corporate teams, including cake delivery, personalized cards, and celebration coordination. We partner with premium bakeries to ensure consistent quality across cities.
                 </p>
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Account Responsibilities</h2>
@@ -63,12 +63,12 @@ export default function TermsPage() {
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Limitation of Liability</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Frosting&apos;s liability is limited to the fees paid for the specific service in question. We are not liable for indirect, incidental, or consequential damages arising from service use.
+                  Cremio&apos;s liability is limited to the fees paid for the specific service in question. We are not liable for indirect, incidental, or consequential damages arising from service use.
                 </p>
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Contact</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  For questions about these terms, contact us at legal@frosting.in.
+                  For questions about these terms, contact us at legal@cremio.io.
                 </p>
               </div>
             </FadeIn>

@@ -3,8 +3,8 @@ import { Footer } from "@/components/footer"
 import { FadeIn } from "@/components/fade-in"
 
 export const metadata = {
-  title: "Refund Policy | Frosting",
-  description: "Frosting's refund and cancellation policy.",
+  title: "Refund Policy | Cremio",
+  description: "Cremio's refund and cancellation policy.",
 }
 
 export default function RefundPolicyPage() {
@@ -27,7 +27,7 @@ export default function RefundPolicyPage() {
               <div className="prose prose-neutral max-w-none">
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Our Commitment</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  At Frosting, we stand behind the quality of our service. If something goes wrong with a delivery, we&apos;ll make it right.
+                  At Cremio, we stand behind the quality of our service. If something goes wrong with a delivery, we&apos;ll make it right.
                 </p>
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Cake Quality Issues</h2>

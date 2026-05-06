@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
@@ -42,8 +43,8 @@ export function Navbar() {
         <div className="mx-auto max-w-[1200px] px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between lg:h-20">
             {/* Logo */}
-            <Link href="/" className="font-serif text-2xl text-foreground">
-              Frosting
+            <Link href="/" className="flex items-center">
+              <Image src="/logo.svg" alt="Cremio" width={120} height={36} priority />
             </Link>
 
             {/* Desktop Navigation */}

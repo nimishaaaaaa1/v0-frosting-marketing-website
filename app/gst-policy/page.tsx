@@ -3,8 +3,8 @@ import { Footer } from "@/components/footer"
 import { FadeIn } from "@/components/fade-in"
 
 export const metadata = {
-  title: "GST Policy | Frosting",
-  description: "GST compliance and invoicing details for Frosting services.",
+  title: "GST Policy | Cremio",
+  description: "GST compliance and invoicing details for Cremio services.",
 }
 
 export default function GstPolicyPage() {
@@ -27,7 +27,7 @@ export default function GstPolicyPage() {
               <div className="prose prose-neutral max-w-none">
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">GST Registration</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Frosting is a registered entity under the Goods and Services Tax Act. Our GST identification number (GSTIN) is available on all invoices.
+                  Cremio is a registered entity under the Goods and Services Tax Act. Our GST identification number (GSTIN) is available on all invoices.
                 </p>
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">GST on Services</h2>
@@ -53,7 +53,7 @@ export default function GstPolicyPage() {
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Input Tax Credit</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  If your organization is GST-registered, you may be eligible to claim Input Tax Credit (ITC) on our services. Ensure your GSTIN is correctly recorded in your Frosting account to receive properly addressed invoices.
+                  If your organization is GST-registered, you may be eligible to claim Input Tax Credit (ITC) on our services. Ensure your GSTIN is correctly recorded in your Cremio account to receive properly addressed invoices.
                 </p>
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Place of Supply</h2>
@@ -78,7 +78,7 @@ export default function GstPolicyPage() {
 
                 <h2 className="font-serif text-2xl text-foreground mt-8 mb-4">Contact</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  For GST-related queries or to update your GSTIN, contact finance@frosting.in.
+                  For GST-related queries or to update your GSTIN, contact finance@cremio.io.
                 </p>
               </div>
             </FadeIn>

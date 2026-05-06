@@ -7,7 +7,7 @@ import { FadeIn } from "@/components/fade-in"
 import { ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Thank You | Frosting",
+  title: "Thank You | Cremio",
   description: "Thanks for reaching out. We'll send a calendar invite within 4 hours.",
 }
 

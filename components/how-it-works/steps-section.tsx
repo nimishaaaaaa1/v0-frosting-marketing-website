@@ -147,7 +147,7 @@ export function StepsSection() {
                 <span className="text-sm font-medium text-foreground">WhatsApp</span>
               </div>
               <div className="bg-green-50 rounded-lg p-4 text-sm text-foreground leading-relaxed">
-                <p className="font-medium mb-2">Frosting Delivery</p>
+                <p className="font-medium mb-2">Cremio Delivery</p>
                 <p>Hi Vikram! Priya&apos;s birthday is on Thursday. We&apos;re sending a chocolate truffle cake (eggless) to the Bangalore office.</p>
                 <p className="mt-2">Reply CHANGE if she&apos;s WFH or on leave.</p>
               </div>

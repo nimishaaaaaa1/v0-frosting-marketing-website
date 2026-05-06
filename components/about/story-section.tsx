@@ -14,7 +14,7 @@ export function StorySection() {
         <FadeIn delay={0.1}>
           <div className="mt-8 prose prose-lg max-w-none">
             <p className="font-serif text-xl text-foreground leading-relaxed">
-              Birthday cakes are one of those small things that everyone agrees matters, but nobody actually owns. So we built Frosting.
+              Birthday cakes are one of those small things that everyone agrees matters, but nobody actually owns. So we built Cremio.
             </p>
           </div>
         </FadeIn>

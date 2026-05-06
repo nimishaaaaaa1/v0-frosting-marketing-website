@@ -7,8 +7,8 @@ import { ValuesSection } from "@/components/about/values-section"
 import { AboutCta } from "@/components/about/about-cta"
 
 export const metadata: Metadata = {
-  title: "About | Frosting",
-  description: "We started Frosting because somebody had to. Indian offices spend more on birthday cakes than they realize. We're here to fix that.",
+  title: "About | Cremio",
+  description: "We started Cremio because somebody had to. Indian offices spend more on birthday cakes than they realize. We're here to fix that.",
 }
 
 export default function AboutPage() {

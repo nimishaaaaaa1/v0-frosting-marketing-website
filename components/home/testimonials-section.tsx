@@ -26,7 +26,7 @@ export function TestimonialsSection() {
       <div className="mx-auto max-w-[1140px]">
         <FadeIn>
           <h2 className="font-serif text-[28px] md:text-[40px] leading-[1.15] text-foreground">
-            From HR teams using Frosting
+            From HR teams using Cremio
           </h2>
         </FadeIn>
 

@@ -10,7 +10,7 @@ export function CostComparison() {
       <div className="mx-auto max-w-[1200px] px-6 lg:px-8">
         <FadeIn>
           <h2 className="font-serif text-3xl text-foreground sm:text-4xl text-center text-balance">
-            What you&apos;re spending now vs Frosting
+            What you&apos;re spending now vs Cremio
           </h2>
         </FadeIn>
         <FadeIn delay={0.1}>
@@ -69,14 +69,14 @@ export function CostComparison() {
             </motion.div>
           </FadeIn>
 
-          {/* Frosting Card */}
+          {/* Cremio Card */}
           <FadeIn delay={0.3}>
             <motion.div
               whileHover={{ y: -4 }}
               transition={{ duration: 0.2 }}
               className="bg-card rounded-xl shadow-[0_8px_32px_rgba(43,24,16,0.08)] border-2 border-primary p-8 h-full"
             >
-              <h3 className="font-serif text-xl text-foreground">Doing it with Frosting</h3>
+              <h3 className="font-serif text-xl text-foreground">Doing it with Cremio</h3>
               <p className="mt-1 text-sm text-muted-foreground">For a 200-person team on Enterprise</p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3 text-foreground">
@@ -124,7 +124,7 @@ export function CostComparison() {
         <FadeIn delay={0.4}>
           <div className="mt-12 text-center">
             <p className="text-muted-foreground">
-              <span className="font-medium text-foreground">The math is simple:</span> The cost of one disengaged employee leaving is 10x what you&apos;d spend on Frosting for a year.
+              <span className="font-medium text-foreground">The math is simple:</span> The cost of one disengaged employee leaving is 10x what you&apos;d spend on Cremio for a year.
             </p>
           </div>
         </FadeIn>
