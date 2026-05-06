@@ -25,7 +25,7 @@ export function HeroSection() {
             </FadeIn>
             <FadeIn delay={0.1}>
               <p className="mt-4 text-[17px] leading-[1.5] text-muted-foreground max-w-lg">
-                Cremio handles birthday cakes, work anniversaries, and milestones for HR teams across India.
+                Cremio handles birthday cakes, work anniversaries, and milestones for HR teams everywhere.
               </p>
             </FadeIn>
             <FadeIn delay={0.2}>

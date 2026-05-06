@@ -8,7 +8,7 @@ import { AboutCta } from "@/components/about/about-cta"
 
 export const metadata: Metadata = {
   title: "About | Cremio",
-  description: "We started Cremio because somebody had to. Indian offices spend more on birthday cakes than they realize. We're here to fix that.",
+  description: "We built Cremio because people deserve to feel seen at work. Companies everywhere spend real money on employee celebrations. Almost none of it is done well.",
 }
 
 export default function AboutPage() {

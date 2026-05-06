@@ -15,7 +15,7 @@ const features = [
   },
   {
     icon: Cake,
-    title: "Premium bakery partners across 22 cities",
+    title: "Premium bakery partners in cities worldwide",
   },
   {
     icon: Palette,
@@ -37,7 +37,7 @@ export function FeaturesSection() {
       <div className="mx-auto max-w-[1140px]">
         <FadeIn>
           <h2 className="font-serif text-[28px] md:text-[40px] leading-[1.15] text-foreground">
-            Built for Indian offices
+            Built for teams that care
           </h2>
         </FadeIn>
 

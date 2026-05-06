@@ -130,7 +130,7 @@ export function StepsSection() {
             </FadeIn>
             <FadeIn delay={0.3}>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                If the manager doesn&apos;t reply, we proceed. If they do, we redirect to the home address or reschedule. This single feature is why our delivery success rate is 99.4%. Most cake services in India can&apos;t get past 80%.
+                If the manager doesn&apos;t reply, we proceed. If they do, we redirect to the home address or reschedule. This single feature is why our delivery success rate is 99.4%.
               </p>
             </FadeIn>
           </div>

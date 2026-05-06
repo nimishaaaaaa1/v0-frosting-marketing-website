@@ -21,7 +21,7 @@ export function StorySection() {
         <FadeIn delay={0.2}>
           <div className="mt-8 prose prose-lg max-w-none">
             <p className="font-serif text-xl text-foreground leading-relaxed">
-              We&apos;re a small team based out of Bangalore and Delhi. We work with the best bakeries in 22 Indian cities. We obsess over little things like whether the new joiner&apos;s name is spelled right on the topper. The little things are the whole product.
+              We&apos;re a small team obsessed with getting the details right — whether the new joiner&apos;s name is spelled correctly on the topper, whether the cake arrives before the meeting starts. We work with premium bakeries across 22 cities. The little things are the whole product.
             </p>
           </div>
         </FadeIn>

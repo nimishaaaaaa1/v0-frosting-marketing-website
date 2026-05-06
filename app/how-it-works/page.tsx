@@ -8,7 +8,7 @@ import { CtaStrip } from "@/components/how-it-works/cta-strip"
 
 export const metadata: Metadata = {
   title: "How It Works | Cremio",
-  description: "From uploading your team list to Priya blowing out candles. See how Cremio automates employee birthdays for HR teams across India.",
+  description: "From uploading your team list to the cake arriving on time. See how Cremio automates employee birthdays for HR teams around the world.",
 }
 
 export default function HowItWorksPage() {

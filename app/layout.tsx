@@ -17,7 +17,7 @@ const sourceSerif = Source_Serif_4({
 
 export const metadata: Metadata = {
   title: 'Cremio | Thoughtful employee celebrations, automated',
-  description: 'We automate thoughtful employee celebrations for companies. Birthday cakes, work anniversaries, and milestones for HR teams across India.',
+  description: 'We automate thoughtful employee celebrations for companies. Birthday cakes, work anniversaries, and milestones for HR teams around the world.',
   icons: {
     icon: [
       {

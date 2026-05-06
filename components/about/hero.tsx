@@ -11,7 +11,7 @@ export function AboutHero() {
         </FadeIn>
         <FadeIn delay={0.1}>
           <p className="mt-6 text-xl text-muted-foreground max-w-3xl leading-relaxed">
-            Indian offices spend more on birthday cakes than they realize. Almost none of it is well-organized. We&apos;re here to fix that.
+            Companies spend more on birthday cakes than they realize. Almost none of it is well-organized. We&apos;re here to fix that.
           </p>
         </FadeIn>
       </div>
