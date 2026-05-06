@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "Do you offer a free trial?",
-    answer: "Yes. 30-day free trial on the Growth plan.",
+    answer: "Yes. 30-day free trial where we waive the platform fee completely — you only pay for the cakes themselves. No commitment, cancel anytime.",
   },
 ]
 
