@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Source_Serif_4 } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import './globals.css'
 
 const inter = Inter({ 
@@ -47,6 +48,7 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
+        <Script defer src="https://cloud.umami.is/script.js" data-website-id="9ba5fa88-788b-4eee-a350-1e3bd94e8516" />
       </body>
     </html>
   )
